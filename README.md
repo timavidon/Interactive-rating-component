@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/timavidon/frontend-mentor-c4)
+- Live Site URL: [Live Site](https://timavidon.github.io/frontend-mentor-c4/)
 
 ## My process
 
