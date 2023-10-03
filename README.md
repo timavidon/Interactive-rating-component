@@ -46,7 +46,7 @@ Users should be able to:
 ### Continued development
 
 - To Do:
- - Think of the javascrpit solution.
+  - Think of the javascrpit solution.
 
 I want to continue and improve my responsive and accessibility skills. Also learn the best coding practices!
 - Learn how to make a responsive card.
