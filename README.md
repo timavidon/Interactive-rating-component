@@ -10,8 +10,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
-
 
 ## Overview
 
@@ -27,7 +25,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./design/desktop-result1.png)
-![](./design/desktop-result2.png)
 
 ### Links
 
@@ -39,14 +36,5 @@ Users should be able to:
 ### Built with
 
 - HTML
-- CSS
-- Flexbox
+- CSS, Flexbox, Grid
 - JavaScript
-
-### Continued development
-
-- To Do:
-  - Think of the javascrpit solution.
-
-I want to continue and improve my responsive and accessibility skills. Also learn the best coding practices!
-- Learn how to make a responsive card.
