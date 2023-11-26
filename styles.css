@@ -1,12 +1,14 @@
 :root {
   /* Colors */
   --card-bg-clr: hsl(215, 23%, 14%);
-  --orange: hsl(25, 97%, 53%);
+  --orange-hsl: hsl(25, 97%, 53%);
   --white: hsl(0, 0%, 100%);
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(216, 12%, 54%);
   --dark-blue: hsl(213, 19%, 18%);
   --very-dark-blue: hsl(216, 12%, 8%);
+
+  --orange: 25, 97%, 53%;
 
   /* Font sizes */
   --fs-paragraph: 0.9375rem;
@@ -51,24 +53,21 @@ h1 {
 /* Main Style */
 body {
   min-height: 100dvh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 1.5;
   font-family: "Overpass", sans-serif;
   margin-inline: 2rem;
   background-color: var(--very-dark-blue);
 }
 
-main {
-  display: grid;
-  place-items: center;
-}
-
-.rating-card {
+.card {
   display: grid;
   align-items: start;
   max-width: 27rem;
-  padding: 2.5rem;
+  padding: 3rem 2.5rem;
   border-radius: 2rem;
   background-color: var(--card-bg-clr);
 }
@@ -102,7 +101,6 @@ main {
 }
 
 .rating-btn {
-  /* font-size: var(--fs-500); */
   height: 3.2rem;
   width: 3.2rem;
   border: none;
@@ -114,7 +112,7 @@ main {
 
 .rating-btn:hover {
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--orange-hsl);
 }
 
 .rating-btn:focus {
@@ -130,49 +128,35 @@ main {
   border: none;
   border-radius: 100vw;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--orange-hsl);
   cursor: pointer;
 }
 
 .submit-btn:hover {
-  color: var(--orange);
+  color: var(--orange-hsl);
   background-color: var(--white);
 }
 
 .thank-you-card {
-  max-width: 45rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 4.2rem 2rem;
-  border-radius: 4rem;
-  color: var(--white);
-  background-color: hsl(215, 23%, 14%);
+  display: grid;
+  place-items: center;
 }
 
 .selected-rating {
   text-align: center;
-  width: 24rem;
-  padding: 1rem;
-  border-radius: 5rem;
-  color: var(--orange);
+  width: 15rem;
+  padding: 0.4rem;
+  border-radius: 100vw;
+  color: hsl(var(--orange), 0.8);
   background-color: var(--dark-blue);
-  margin-top: 3rem;
+  margin-block: 2rem;
 }
 
-/* .thank-you-card-heading {
-    font-size: 3rem;
-    font-weight: 400;
-    margin-top: 3rem;
+.thank-you__desc {
+  max-width: 35ch;
+  text-align: center;
+  margin: 0;
 }
-
-.thank-you-card-description {
-    font-size: 1.8rem;
-    line-height: 1.6;
-    color: var(--light-grey);
-} */
 
 /* Utilitels */
 .hidden {
@@ -180,12 +164,13 @@ main {
 }
 
 .attribution {
+  margin: 2rem auto;
   text-align: center;
   color: var(--white);
 }
 
 .attribution a {
-  color: var(--orange);
+  color: var(--orange-hsl);
 }
 
 .attribution a:hover {
