@@ -25,11 +25,9 @@
   <body>
     <!-- Rating state start -->
     <main>
-        <section class="rating-card">
+        <section class="rating-card card">
           <img class="icon-star" src="./images/icon-star.svg" alt="Star icon">
-
           <h1 class="card__heading">How did we do?</h1>
-
           <p class="card__desc">
             Please let us know how we did with your support request. All
             feedback is appreciated to help us improve our offering!
@@ -52,18 +50,21 @@
               <button type="button" value="5" class="rating-btn">5</button>
             </li>
           </ol>
-
-            <button class="submit-btn" type="submit">Submit</button>
+          <button class="submit-btn" type="submit">Submit</button>
         </section>
-        <section class="thank-you-card hidden">
-          <img src="./images/illustration-thank-you.svg" alt="Thank you illustration">
-          <p class="selected-rating">You selected 0 out of 5</p>
+        <!-- Rating state end -->
+
+        <!-- Thank you state start -->
+        <section class="thank-you-card card hidden">
+          <img class="thank-you__img" src="./images/illustration-thank-you.svg" alt="Thank you illustration">
+          <p class="selected-rating">You selected <span class="user-rating">0</span> out of 5</p>
           <h1 class="card__heading">Thank you!</h1>
-          <p class="card__desc"">
+          <p class="thank-you__desc card__desc"">
             We appreciate you taking the time to give a rating. If you ever need
             more support, don't hesitate to get in touch!
           </p>
         </section>
+        <!-- Thank you state end -->
     </main>
 
     <footer class="attribution">
