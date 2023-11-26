@@ -19,10 +19,3 @@ submitBtn.addEventListener('click', () => {
     ratingCard.classList.toggle('hidden');
     thanksCard.classList.toggle('hidden');
 });
-
-// for (let i = 0; i < ratingNumbers.length; i++) {
-//     ratingNumbers[i].addEventListener('click', () => {
-//         const chosenNumber = ratingNumbers[i].innerHTML;
-//         document.querySelector('.selected-rating').innerHTML = `You selected ${chosenNumber} out of 5`;
-//     });
-// }
