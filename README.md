@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-result1.png)
+![](./design/desktop-result.png)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/timavidon/frontend-mentor-c4)
-- Live Site URL: [Live Site](https://timavidon.github.io/frontend-mentor-c4/)
+- Solution URL: [Github](https://github.com/timavidon/Interactive-rating-component-)
+- Live Site URL: [Live Site](https://timavidon.github.io/Interactive-rating-component-/)
 
 ## My process
 
