@@ -36,5 +36,5 @@ Users should be able to:
 ### Built with
 
 - HTML
-- CSS, Flexbox, Grid
+- CSS
 - JavaScript
